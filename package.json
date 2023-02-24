@@ -5,8 +5,8 @@
     "scripts": {
         "dev": "next dev",
         "build": "next build",
-        "turbo:dev": "turbo dev",
-        "turbo:build": "turbo build",
+        "dev:turbo": "turbo dev",
+        "build:turbo": "turbo build",
         "start": "next start",
         "lint": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
         "format": "prettier --write .",
