@@ -8,7 +8,7 @@
         "dev:turbo": "turbo dev",
         "build:turbo": "turbo build",
         "start": "next start",
-        "lint": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
+        "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix",
         "format": "prettier --write .",
         "prepare": "husky install"
     },
@@ -32,6 +32,7 @@
         "typescript": "4.8.4"
     },
     "devDependencies": {
+        "@supabase/supabase-js": "^2.8.0",
         "@typescript-eslint/eslint-plugin": "^5.42.0",
         "@typescript-eslint/parser": "^5.42.0",
         "autoprefixer": "^10.4.13",
