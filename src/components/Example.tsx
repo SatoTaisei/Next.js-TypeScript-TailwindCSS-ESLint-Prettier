@@ -1,4 +1,4 @@
 export const Example = () => {
-    var num6 = 1; 
+    var num7 = 1; 
     return <div>Example</div>;
 };
